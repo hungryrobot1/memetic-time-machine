@@ -1,0 +1,805 @@
+{
+  "metadata": {
+    "source": "MemeTracker (SNAP Stanford)",
+    "paper": "Leskovec, Backstrom, Kleinberg. Meme-tracking and the Dynamics of the News Cycle. KDD 2009.",
+    "url": "https://snap.stanford.edu/memetracker/",
+    "date_range": "August 2008 - October 2008",
+    "extraction_params": {
+      "strong_ranks": [
+        3,
+        8,
+        43,
+        13,
+        22
+      ],
+      "weak_ranks": [
+        256,
+        262,
+        330,
+        399,
+        473
+      ],
+      "strong_ids": [],
+      "weak_ids": [],
+      "variants_per_cluster": 15
+    }
+  },
+  "strong_memes": [
+    {
+      "id": "joe_the_plumber",
+      "cluster_id": 1324836,
+      "root_phrase": "joe the plumber",
+      "total_frequency": 19393,
+      "variant_count": 6,
+      "rank": 3,
+      "variants": [
+        "joe the plumber",
+        "i'm joe the plumber",
+        "joe the biden",
+        "not the plumber",
+        "i'm joe not the plumber joe the biden",
+        "hey bonita i'm joe not the plumber joe the biden"
+      ],
+      "variant_details": [
+        {
+          "phrase": "joe the plumber",
+          "frequency": 18932,
+          "url_count": 15059
+        },
+        {
+          "phrase": "i'm joe the plumber",
+          "frequency": 324,
+          "url_count": 306
+        },
+        {
+          "phrase": "joe the biden",
+          "frequency": 105,
+          "url_count": 99
+        },
+        {
+          "phrase": "not the plumber",
+          "frequency": 13,
+          "url_count": 11
+        },
+        {
+          "phrase": "i'm joe not the plumber joe the biden",
+          "frequency": 13,
+          "url_count": 13
+        },
+        {
+          "phrase": "hey bonita i'm joe not the plumber joe the biden",
+          "frequency": 6,
+          "url_count": 6
+        }
+      ]
+    },
+    {
+      "id": "you_can_put_lipstick_on_a_pig",
+      "cluster_id": 884171,
+      "root_phrase": "you can put lipstick on a pig",
+      "total_frequency": 12851,
+      "variant_count": 31,
+      "rank": 8,
+      "variants": [
+        "lipstick on a pig",
+        "you can put lipstick on a pig",
+        "you can put lipstick on a pig but it's still a pig",
+        "you can put lipstick on a pig it's still a pig",
+        "i think they put some lipstick on a pig but it's still a pig",
+        "it's still a pig",
+        "but it's still a pig",
+        "you know you can put lipstick on a pig",
+        "i think they put some lipstick on a pig",
+        "if you put lipstick on a pig it's still a pig",
+        "lipstick on the pig",
+        "i think they put some lipstick on the pig but it's still a pig",
+        "put lipstick on a pig",
+        "you can't put lipstick on a pig",
+        "you can put lipstick on a pig but its still a pig"
+      ],
+      "variant_details": [
+        {
+          "phrase": "lipstick on a pig",
+          "frequency": 9328,
+          "url_count": 6471
+        },
+        {
+          "phrase": "you can put lipstick on a pig",
+          "frequency": 819,
+          "url_count": 774
+        },
+        {
+          "phrase": "you can put lipstick on a pig but it's still a pig",
+          "frequency": 669,
+          "url_count": 609
+        },
+        {
+          "phrase": "you can put lipstick on a pig it's still a pig",
+          "frequency": 538,
+          "url_count": 499
+        },
+        {
+          "phrase": "i think they put some lipstick on a pig but it's still a pig",
+          "frequency": 451,
+          "url_count": 187
+        },
+        {
+          "phrase": "it's still a pig",
+          "frequency": 238,
+          "url_count": 221
+        },
+        {
+          "phrase": "but it's still a pig",
+          "frequency": 219,
+          "url_count": 214
+        },
+        {
+          "phrase": "you know you can put lipstick on a pig",
+          "frequency": 132,
+          "url_count": 129
+        },
+        {
+          "phrase": "i think they put some lipstick on a pig",
+          "frequency": 63,
+          "url_count": 62
+        },
+        {
+          "phrase": "if you put lipstick on a pig it's still a pig",
+          "frequency": 47,
+          "url_count": 45
+        },
+        {
+          "phrase": "lipstick on the pig",
+          "frequency": 46,
+          "url_count": 45
+        },
+        {
+          "phrase": "i think they put some lipstick on the pig but it's still a pig",
+          "frequency": 42,
+          "url_count": 42
+        },
+        {
+          "phrase": "put lipstick on a pig",
+          "frequency": 37,
+          "url_count": 35
+        },
+        {
+          "phrase": "you can't put lipstick on a pig",
+          "frequency": 31,
+          "url_count": 30
+        },
+        {
+          "phrase": "you can put lipstick on a pig but its still a pig",
+          "frequency": 25,
+          "url_count": 25
+        }
+      ]
+    },
+    {
+      "id": "the_chant_is_drill_baby_drill",
+      "cluster_id": 1259382,
+      "root_phrase": "the chant is drill baby drill",
+      "total_frequency": 7616,
+      "variant_count": 5,
+      "rank": 13,
+      "variants": [
+        "drill baby drill",
+        "the chant is drill baby drill",
+        "the chant is drill baby drill and that's what we hear all across this country in our rallies because people are so hungry for those domestic sources of energy to be tapped into",
+        "the chant is",
+        "and that's what we hear all across this country in our rallies because people are so hungry for those domestic sources of energy to be tapped into"
+      ],
+      "variant_details": [
+        {
+          "phrase": "drill baby drill",
+          "frequency": 7428,
+          "url_count": 6711
+        },
+        {
+          "phrase": "the chant is drill baby drill",
+          "frequency": 165,
+          "url_count": 165
+        },
+        {
+          "phrase": "the chant is drill baby drill and that's what we hear all across this country in our rallies because people are so hungry for those domestic sources of energy to be tapped into",
+          "frequency": 11,
+          "url_count": 11
+        },
+        {
+          "phrase": "the chant is",
+          "frequency": 7,
+          "url_count": 7
+        },
+        {
+          "phrase": "and that's what we hear all across this country in our rallies because people are so hungry for those domestic sources of energy to be tapped into",
+          "frequency": 5,
+          "url_count": 5
+        }
+      ]
+    },
+    {
+      "id": "they_are_too_big_to_fail",
+      "cluster_id": 1055116,
+      "root_phrase": "they are too big to fail",
+      "total_frequency": 5919,
+      "variant_count": 4,
+      "rank": 22,
+      "variants": [
+        "too big to fail",
+        "they are too big to fail",
+        "if they are too big to fail make them smaller",
+        "are too big to fail"
+      ],
+      "variant_details": [
+        {
+          "phrase": "too big to fail",
+          "frequency": 5823,
+          "url_count": 4997
+        },
+        {
+          "phrase": "they are too big to fail",
+          "frequency": 63,
+          "url_count": 63
+        },
+        {
+          "phrase": "if they are too big to fail make them smaller",
+          "frequency": 18,
+          "url_count": 18
+        },
+        {
+          "phrase": "are too big to fail",
+          "frequency": 15,
+          "url_count": 15
+        }
+      ]
+    },
+    {
+      "id": "our_national_leaders_are_sendi",
+      "cluster_id": 924137,
+      "root_phrase": "our national leaders are sending u s soldiers on a task that is from god",
+      "total_frequency": 3817,
+      "variant_count": 73,
+      "rank": 43,
+      "variants": [
+        "task that is from god",
+        "our national leaders are sending u s soldiers on a task that is from god",
+        "that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan",
+        "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending u s soldiers out on a task that is from god",
+        "that's what we have to make sure that we're praying for that there is a plan and that plan is god's plan",
+        "a task that is from god",
+        "our national leaders are sending them out on a task that is from god",
+        "on a task that is from god",
+        "what is right",
+        "that our national leaders are sending them out on a task that is from god that's what we have to make sure we are praying for that there is a plan and that plan is god's plan",
+        "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending them out on a task that is from god that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan",
+        "prepared for every option",
+        "to do what",
+        "and that is",
+        "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending u s soldiers out on a task that is from god that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan"
+      ],
+      "variant_details": [
+        {
+          "phrase": "task that is from god",
+          "frequency": 748,
+          "url_count": 734
+        },
+        {
+          "phrase": "our national leaders are sending u s soldiers on a task that is from god",
+          "frequency": 541,
+          "url_count": 476
+        },
+        {
+          "phrase": "that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan",
+          "frequency": 314,
+          "url_count": 304
+        },
+        {
+          "phrase": "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending u s soldiers out on a task that is from god",
+          "frequency": 272,
+          "url_count": 261
+        },
+        {
+          "phrase": "that's what we have to make sure that we're praying for that there is a plan and that plan is god's plan",
+          "frequency": 249,
+          "url_count": 234
+        },
+        {
+          "phrase": "a task that is from god",
+          "frequency": 237,
+          "url_count": 230
+        },
+        {
+          "phrase": "our national leaders are sending them out on a task that is from god",
+          "frequency": 212,
+          "url_count": 201
+        },
+        {
+          "phrase": "on a task that is from god",
+          "frequency": 110,
+          "url_count": 110
+        },
+        {
+          "phrase": "what is right",
+          "frequency": 90,
+          "url_count": 82
+        },
+        {
+          "phrase": "that our national leaders are sending them out on a task that is from god that's what we have to make sure we are praying for that there is a plan and that plan is god's plan",
+          "frequency": 89,
+          "url_count": 89
+        },
+        {
+          "phrase": "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending them out on a task that is from god that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan",
+          "frequency": 68,
+          "url_count": 66
+        },
+        {
+          "phrase": "prepared for every option",
+          "frequency": 50,
+          "url_count": 47
+        },
+        {
+          "phrase": "to do what",
+          "frequency": 46,
+          "url_count": 45
+        },
+        {
+          "phrase": "and that is",
+          "frequency": 42,
+          "url_count": 41
+        },
+        {
+          "phrase": "pray for our military men and women who are striving to do what is right also for this country that our leaders our national leaders are sending u s soldiers out on a task that is from god that's what we have to make sure that we're praying for that there is a plan and that that plan is god's plan",
+          "frequency": 42,
+          "url_count": 42
+        }
+      ]
+    }
+  ],
+  "weak_memes": [
+    {
+      "id": "well_you_know_that_mr_obama_is",
+      "cluster_id": 1498103,
+      "root_phrase": "well you know that mr obama is a muslim",
+      "total_frequency": 1700,
+      "variant_count": 55,
+      "rank": 256,
+      "variants": [
+        "well you know that mr obama is a muslim",
+        "is something wrong",
+        "well you know",
+        "is there something wrong with being a muslim in this country",
+        "always been a christian",
+        "the really right answer is what if he is",
+        "is there something wrong",
+        "he's always been a christian but the really right answer is what if he is is there something wrong with being a muslim in this country the answer's no that's not america",
+        "you know that",
+        "what if he is is there something wrong with being a muslim in this country",
+        "what if he is",
+        "well the correct answer is he is not a muslim he's a christian he's always been a christian",
+        "he has always been a christian but the really right answer is what if he is is there something wrong with being muslim in this country the answer is no that is not america",
+        "he's not a muslim he's a christian",
+        "the correct answer is he is not a muslim he's a christian he's always been a christian but the really right answer is what if he is is there something wrong with being a muslim in this country the answer's no that's not america"
+      ],
+      "variant_details": [
+        {
+          "phrase": "well you know that mr obama is a muslim",
+          "frequency": 358,
+          "url_count": 353
+        },
+        {
+          "phrase": "is something wrong",
+          "frequency": 153,
+          "url_count": 147
+        },
+        {
+          "phrase": "well you know",
+          "frequency": 133,
+          "url_count": 131
+        },
+        {
+          "phrase": "is there something wrong with being a muslim in this country",
+          "frequency": 94,
+          "url_count": 90
+        },
+        {
+          "phrase": "always been a christian",
+          "frequency": 79,
+          "url_count": 79
+        },
+        {
+          "phrase": "the really right answer is what if he is",
+          "frequency": 79,
+          "url_count": 76
+        },
+        {
+          "phrase": "is there something wrong",
+          "frequency": 76,
+          "url_count": 75
+        },
+        {
+          "phrase": "he's always been a christian but the really right answer is what if he is is there something wrong with being a muslim in this country the answer's no that's not america",
+          "frequency": 62,
+          "url_count": 62
+        },
+        {
+          "phrase": "you know that",
+          "frequency": 55,
+          "url_count": 54
+        },
+        {
+          "phrase": "what if he is is there something wrong with being a muslim in this country",
+          "frequency": 42,
+          "url_count": 42
+        },
+        {
+          "phrase": "what if he is",
+          "frequency": 40,
+          "url_count": 40
+        },
+        {
+          "phrase": "well the correct answer is he is not a muslim he's a christian he's always been a christian",
+          "frequency": 36,
+          "url_count": 36
+        },
+        {
+          "phrase": "he has always been a christian but the really right answer is what if he is is there something wrong with being muslim in this country the answer is no that is not america",
+          "frequency": 25,
+          "url_count": 25
+        },
+        {
+          "phrase": "he's not a muslim he's a christian",
+          "frequency": 24,
+          "url_count": 24
+        },
+        {
+          "phrase": "the correct answer is he is not a muslim he's a christian he's always been a christian but the really right answer is what if he is is there something wrong with being a muslim in this country the answer's no that's not america",
+          "frequency": 24,
+          "url_count": 23
+        }
+      ]
+    },
+    {
+      "id": "our_entire_economy_is_in_dange",
+      "cluster_id": 1134217,
+      "root_phrase": "our entire economy is in danger",
+      "total_frequency": 1680,
+      "variant_count": 11,
+      "rank": 262,
+      "variants": [
+        "our entire economy is in danger",
+        "entire economy is in danger",
+        "i cannot carry on a campaign as though this dangerous situation had not occurred or as though a solution were at hand which it clearly is not",
+        "our economy is in serious danger",
+        "the entire economy is in danger",
+        "economy in danger",
+        "that's the situation in washington at this very hour when the whole future of the american economy is in danger i cannot carry on a campaign as though this dangerous situation had not occurred or as though a solution were at hand",
+        "our economy is in danger",
+        "that's the situation in washington at this very hour when the whole future of the american economy is in danger",
+        "the whole future of the american economy is in danger",
+        "is in danger"
+      ],
+      "variant_details": [
+        {
+          "phrase": "our entire economy is in danger",
+          "frequency": 1359,
+          "url_count": 1325
+        },
+        {
+          "phrase": "entire economy is in danger",
+          "frequency": 162,
+          "url_count": 156
+        },
+        {
+          "phrase": "i cannot carry on a campaign as though this dangerous situation had not occurred or as though a solution were at hand which it clearly is not",
+          "frequency": 38,
+          "url_count": 38
+        },
+        {
+          "phrase": "our economy is in serious danger",
+          "frequency": 24,
+          "url_count": 18
+        },
+        {
+          "phrase": "the entire economy is in danger",
+          "frequency": 23,
+          "url_count": 23
+        },
+        {
+          "phrase": "economy in danger",
+          "frequency": 16,
+          "url_count": 11
+        },
+        {
+          "phrase": "that's the situation in washington at this very hour when the whole future of the american economy is in danger i cannot carry on a campaign as though this dangerous situation had not occurred or as though a solution were at hand",
+          "frequency": 15,
+          "url_count": 15
+        },
+        {
+          "phrase": "our economy is in danger",
+          "frequency": 14,
+          "url_count": 13
+        },
+        {
+          "phrase": "that's the situation in washington at this very hour when the whole future of the american economy is in danger",
+          "frequency": 11,
+          "url_count": 11
+        },
+        {
+          "phrase": "the whole future of the american economy is in danger",
+          "frequency": 10,
+          "url_count": 10
+        },
+        {
+          "phrase": "is in danger",
+          "frequency": 8,
+          "url_count": 8
+        }
+      ]
+    },
+    {
+      "id": "this_election_is_not_about_iss",
+      "cluster_id": 762613,
+      "root_phrase": "this election is not about issues",
+      "total_frequency": 1503,
+      "variant_count": 18,
+      "rank": 330,
+      "variants": [
+        "this election is not about issues",
+        "this election is about a composite view of what people take away from these candidates",
+        "this election is not about issues this election is about a composite view of what people take away from these candidates",
+        "not about the issues",
+        "not about issues",
+        "is not about issues",
+        "this is not",
+        "this election is not about the issues",
+        "a composite view of what people take away from these candidates",
+        "this campaign is not about issues",
+        "about the issues",
+        "this election is about issues",
+        "about a composite view of what people take away from these candidates",
+        "this is about",
+        "a view of"
+      ],
+      "variant_details": [
+        {
+          "phrase": "this election is not about issues",
+          "frequency": 598,
+          "url_count": 581
+        },
+        {
+          "phrase": "this election is about a composite view of what people take away from these candidates",
+          "frequency": 260,
+          "url_count": 255
+        },
+        {
+          "phrase": "this election is not about issues this election is about a composite view of what people take away from these candidates",
+          "frequency": 246,
+          "url_count": 245
+        },
+        {
+          "phrase": "not about the issues",
+          "frequency": 127,
+          "url_count": 121
+        },
+        {
+          "phrase": "not about issues",
+          "frequency": 59,
+          "url_count": 56
+        },
+        {
+          "phrase": "is not about issues",
+          "frequency": 52,
+          "url_count": 50
+        },
+        {
+          "phrase": "this is not",
+          "frequency": 48,
+          "url_count": 44
+        },
+        {
+          "phrase": "this election is not about the issues",
+          "frequency": 25,
+          "url_count": 25
+        },
+        {
+          "phrase": "a composite view of what people take away from these candidates",
+          "frequency": 16,
+          "url_count": 16
+        },
+        {
+          "phrase": "this campaign is not about issues",
+          "frequency": 14,
+          "url_count": 13
+        },
+        {
+          "phrase": "about the issues",
+          "frequency": 11,
+          "url_count": 11
+        },
+        {
+          "phrase": "this election is about issues",
+          "frequency": 11,
+          "url_count": 11
+        },
+        {
+          "phrase": "about a composite view of what people take away from these candidates",
+          "frequency": 8,
+          "url_count": 7
+        },
+        {
+          "phrase": "this is about",
+          "frequency": 7,
+          "url_count": 7
+        },
+        {
+          "phrase": "a view of",
+          "frequency": 6,
+          "url_count": 6
+        }
+      ]
+    },
+    {
+      "id": "two_wars_a_planet_in_peril_the",
+      "cluster_id": 1717597,
+      "root_phrase": "two wars a planet in peril the worst financial crisis in a century",
+      "total_frequency": 1370,
+      "variant_count": 21,
+      "rank": 399,
+      "variants": [
+        "planet in peril",
+        "two wars a planet in peril the worst financial crisis in a century",
+        "even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+        "a planet in peril",
+        "we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+        "the worst financial crisis in a century",
+        "the worst financial crisis in history",
+        "you did it because you understand the enormity of the task that lies ahead for even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+        "for even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+        "the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+        "the greatest of our lifetime",
+        "even as we celebrate tonight we know that the challenges that tomorrow will bring are the greatest in our lifetime",
+        "for even as we celebrate tonight",
+        "we know the challenges that tomorrow will bring are the greatest of our lifetime",
+        "even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime-two wars a planet in peril the worst financial crisis in a century"
+      ],
+      "variant_details": [
+        {
+          "phrase": "planet in peril",
+          "frequency": 432,
+          "url_count": 320
+        },
+        {
+          "phrase": "two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 178,
+          "url_count": 177
+        },
+        {
+          "phrase": "even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 148,
+          "url_count": 148
+        },
+        {
+          "phrase": "a planet in peril",
+          "frequency": 145,
+          "url_count": 145
+        },
+        {
+          "phrase": "we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 98,
+          "url_count": 98
+        },
+        {
+          "phrase": "the worst financial crisis in a century",
+          "frequency": 94,
+          "url_count": 90
+        },
+        {
+          "phrase": "the worst financial crisis in history",
+          "frequency": 49,
+          "url_count": 49
+        },
+        {
+          "phrase": "you did it because you understand the enormity of the task that lies ahead for even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 42,
+          "url_count": 42
+        },
+        {
+          "phrase": "for even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 34,
+          "url_count": 34
+        },
+        {
+          "phrase": "the greatest of our lifetime two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 26,
+          "url_count": 26
+        },
+        {
+          "phrase": "the greatest of our lifetime",
+          "frequency": 23,
+          "url_count": 23
+        },
+        {
+          "phrase": "even as we celebrate tonight we know that the challenges that tomorrow will bring are the greatest in our lifetime",
+          "frequency": 19,
+          "url_count": 19
+        },
+        {
+          "phrase": "for even as we celebrate tonight",
+          "frequency": 15,
+          "url_count": 15
+        },
+        {
+          "phrase": "we know the challenges that tomorrow will bring are the greatest of our lifetime",
+          "frequency": 13,
+          "url_count": 13
+        },
+        {
+          "phrase": "even as we celebrate tonight we know the challenges that tomorrow will bring are the greatest of our lifetime-two wars a planet in peril the worst financial crisis in a century",
+          "frequency": 10,
+          "url_count": 10
+        }
+      ]
+    },
+    {
+      "id": "it_s_been_a_long_time_coming_b",
+      "cluster_id": 445981,
+      "root_phrase": "it's been a long time coming but i know a change is gonna come",
+      "total_frequency": 1256,
+      "variant_count": 8,
+      "rank": 473,
+      "variants": [
+        "a change is gonna come",
+        "change is gonna come",
+        "change gonna come",
+        "a change gonna come",
+        "it's been a long time coming but i know a change is gonna come",
+        "long time comin",
+        "it's been a long time comin but i know a change is gonna come",
+        "a long time comin"
+      ],
+      "variant_details": [
+        {
+          "phrase": "a change is gonna come",
+          "frequency": 1036,
+          "url_count": 887
+        },
+        {
+          "phrase": "change is gonna come",
+          "frequency": 100,
+          "url_count": 97
+        },
+        {
+          "phrase": "change gonna come",
+          "frequency": 58,
+          "url_count": 50
+        },
+        {
+          "phrase": "a change gonna come",
+          "frequency": 24,
+          "url_count": 23
+        },
+        {
+          "phrase": "it's been a long time coming but i know a change is gonna come",
+          "frequency": 15,
+          "url_count": 15
+        },
+        {
+          "phrase": "long time comin",
+          "frequency": 11,
+          "url_count": 9
+        },
+        {
+          "phrase": "it's been a long time comin but i know a change is gonna come",
+          "frequency": 7,
+          "url_count": 6
+        },
+        {
+          "phrase": "a long time comin",
+          "frequency": 5,
+          "url_count": 4
+        }
+      ]
+    }
+  ]
+}

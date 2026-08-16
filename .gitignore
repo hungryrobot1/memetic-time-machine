@@ -1,0 +1,10 @@
+# MemeTracker source data — 822MB raw, 219MB gzipped, both far over GitHub's
+# 100MB per-file hard limit. The README documents the wget that fetches them.
+scripts/clust-*.txt
+scripts/clust-*.txt.gz
+
+# macOS
+.DS_Store
+
+# Notebook checkpoints
+.ipynb_checkpoints/
