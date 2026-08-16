@@ -47,11 +47,7 @@ memetic-time-machine/
 
 The notebook clones this repository for its data, so the badge works without any
 setup. Requires a GPU runtime — Pythia-2.8B in fp16 is roughly 5.6 GB, which
-fits a T4 comfortably.
-
-<!-- TODO once you have re-run it: state the runtime type used and roughly how
-     long a full pass takes. A reader wants to know what they're committing to
-     before they provision anything. -->
+fits a T4 comfortably. GPT-2 small is less than 1 GB.
 
 To regenerate the curated corpus from the full MemeTracker dump (220 MB
 compressed, not committed):
@@ -75,9 +71,9 @@ python scripts/parse_memetracker.py clust-qt08080902w3mfq5.txt.gz -o data/memes_
 
 ## Method notes
 
-- **Model:** Pythia-2.8B (EleutherAI), chosen because The Pile includes 2008-era
+- **Models:** Pythia-2.8B (EleutherAI), chosen because The Pile includes 2008-era
   content — the model's training window overlaps the period the data is drawn
-  from, so the phrases are not wholly out of distribution.
+  from, so the phrases are not wholly out of distribution. GPT-2 is featured for similar reasons and is slightly quicker to run.
 - **Framework:** TransformerLens for activation extraction.
 - **Projection:** UMAP, with convex-hull area and eccentricity as the geometric
   summaries per meme family.
