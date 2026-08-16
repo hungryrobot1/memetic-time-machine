@@ -6,7 +6,7 @@ transmission.
 
 ## Context
 
-This repository accompanies the essay *The Memetic Time Machine*, which asks
+This repository accompanies the essay [*The Memetic Time Machine*](https://zacharygrunenberg.com/essay.html?slug=memetic-time-machine), which asks
 whether quantitative methods analogous to molecular phylogenetics can be applied
 to cultural evolution.
 
